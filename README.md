@@ -3,7 +3,7 @@ A model for synthesising photo-realistic images given their textual descriptions
 Related research paper: [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/pdf/1612.03242.pdf)
 
 ## Model Architecture
-Stacked Generative Adversarial Network of StackGAN is an architecture that aims at generating 256x256 photo-realistic images conditioned on their textual discription.  
+Stacked Generative Adversarial Network or StackGAN is an architecture that aims at generating 256x256 photo-realistic images conditioned on their textual discription.  
 The complete architecture is composed of 2 GAN models:
 #### Stage-I GAN
 Given the encoded representation of textual description of the image we want to generate, the Stage-I GAN generates 64x64 primitive, low-resolution image.
